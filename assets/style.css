@@ -1,0 +1,256 @@
+/* element styles */
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 20px
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* text utilities */
+
+.text-hero {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8
+}
+
+.text-hero-secondary,
+.text-header-link {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.text-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.text-information {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.text-quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: #FFF;
+}
+
+/* spacing utilities */
+
+.my-20px,
+.m-20px {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mx-20px,
+.m-20px {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.my-40px,
+.m-40px {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.mx-40px,
+.m-40px {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+.mb-40px {
+  margin-bottom: 40px;
+}
+
+.mb-80px {
+  margin-bottom: 80px;
+}
+
+.py-10px,
+.p-10px {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.px-10px,
+.p-10px {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.py-20px,
+.p-20px {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.px-20px,
+.p-20px {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.pr-20px {
+  padding-right: 20px;
+}
+
+.py-40px,
+.p-40px {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.px-40px,
+.p-40px {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.pr-40px {
+  padding-right: 40px;
+}
+
+.pb-60px {
+  padding-bottom: 60px;
+}
+
+/* color utilities */
+
+.bg-ocean {
+  background-color: #1F2937;
+}
+
+.bg-sky {
+  background-color: #3882F6;
+}
+
+.bg-gray {
+  background-color: #E5E7EB;
+}
+
+/* flex utilities */
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+/* buttons */
+
+.button-sky {
+  background-color: #3882F6;
+  color: #FFF;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 30px;
+}
+
+.button-hollow {
+  background-color: rgba(0, 0, 0, 0);
+  color: #FFF;
+  border: 2px solid #FFF;
+  border-radius: 6px;
+  padding: 10px 30px;
+}
+
+/* misc. */
+
+.w-50 {
+  width: 50%;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+/* components */
+
+.service {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.service-graphic {
+  box-sizing: border-box;
+  border: 4px #3882F6 solid;
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
